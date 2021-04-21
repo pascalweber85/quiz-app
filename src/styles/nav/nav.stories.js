@@ -1,4 +1,4 @@
-import StaticHTML from './nav-bar.html'
+import StaticHTML from './nav.html'
 
 export default {
   title: 'nav-bar',
