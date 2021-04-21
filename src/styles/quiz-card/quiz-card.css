@@ -1,0 +1,27 @@
+.quiz-card {
+  background: lightseagreen;
+  color: #333;
+  padding: 12px;
+  position: relative;
+  border-radius: 10px;
+}
+.quiz-card__heading {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.quiz-card__bookmark {
+  height: 30px;
+  border: 20px solid hotpink;
+  border-bottom-color: transparent;
+  position: absolute;
+  top: -12px;
+  right: 8px;
+}
+.quiz-card__button {
+  background: goldenrod;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+}
