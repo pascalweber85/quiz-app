@@ -1,9 +1,10 @@
 .quiz-card {
-  background: lightseagreen;
-  color: #333;
+  background: rgb(33, 34, 34);
+  color: white;
   padding: 12px;
   position: relative;
   border-radius: 10px;
+  max-width: 300px;
 }
 .quiz-card__heading {
   font-weight: 400;
@@ -12,7 +13,7 @@
 }
 .quiz-card__bookmark {
   height: 30px;
-  border: 20px solid hotpink;
+  border: 20px solid rgb(194, 54, 54);
   border-bottom-color: transparent;
   position: absolute;
   top: -12px;

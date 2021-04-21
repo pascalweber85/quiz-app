@@ -5,3 +5,14 @@
 .m0 {
   margin: 0 !important;
 }
+
+.df > li {
+  margin: 0 0.45rem 0.45rem 0;
+  font-size: x-small;
+  padding: 5px;
+  display: inline-flex;
+  grid-gap: 16px;
+  background: rgb(202, 204, 198);
+  place-items: center;
+  border-radius: 6px;
+}
