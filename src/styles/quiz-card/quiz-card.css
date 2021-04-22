@@ -5,6 +5,7 @@
   position: relative;
   border-radius: 10px;
   max-width: 300px;
+  margin-top: 20px;
 }
 .quiz-card__heading {
   font-weight: 400;

@@ -8,6 +8,7 @@
   left: 0;
   width: 100%;
   justify-content: space-evenly;
+  max-width: 600px;
 }
 
 /* Style the links inside the navigation bar */
@@ -28,7 +29,7 @@
 }
 
 /* Add a color to the active/current link */
-.nav-bar a.active {
+.nav a.active {
   background-color: #4caf50;
   color: white;
 }
