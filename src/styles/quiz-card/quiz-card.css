@@ -1,9 +1,10 @@
 .quiz-card {
-  background: rgb(33, 34, 34);
+  background: rgb(6, 97, 97);
   color: white;
   padding: 12px;
   position: relative;
   border-radius: 10px;
+  box-shadow: 5px 10px 3px #808080;
   max-width: 300px;
   margin-top: 20px;
 }
