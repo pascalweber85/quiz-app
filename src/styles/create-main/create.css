@@ -1,0 +1,43 @@
+.q1 {
+  background: rgb(6, 97, 97);
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 3px #808080;
+  max-width: 300px;
+  margin-top: 20px;
+}
+.q2 {
+  background: rgb(6, 97, 97);
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 3px #808080;
+  max-width: 300px;
+  margin-top: 20px;
+}
+.q3 {
+  background: rgb(6, 97, 97);
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 3px #808080;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.q4 {
+  background: rgb(6, 97, 97);
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 3px #808080;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.create-button {
+  background: goldenrod;
+  display: block;
+  border-radius: 6px;
+}
