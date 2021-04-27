@@ -36,8 +36,9 @@
   margin-top: 20px;
 }
 
-.create-button {
+.knopf {
   background: goldenrod;
   display: block;
   border-radius: 6px;
+  margin-bottom: 50px;
 }
