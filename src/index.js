@@ -14,6 +14,13 @@ const header2 = document.querySelector('.header2')
 const header3 = document.querySelector('.header3')
 const header4 = document.querySelector('.header4')
 
+const knopf2 = document.querySelector('.knopf2')
+const answer = document.querySelector('.answer')
+
+knopf2.addEventListener('click', () => {
+  answer.classList.toggle('hidden')
+})
+
 buttonHome.addEventListener('click', () => {
   content1.classList.remove('hidden')
   content2.classList.add('hidden')
