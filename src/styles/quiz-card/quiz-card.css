@@ -21,6 +21,14 @@
   top: -12px;
   right: 8px;
 }
+.quiz-card__bookmark--selected {
+  height: 30px;
+  border: 20px solid rgb(189, 54, 194);
+  border-bottom-color: transparent;
+  position: absolute;
+  top: -12px;
+  right: 8px;
+}
 .quiz-card__button {
   background: goldenrod;
   display: block;

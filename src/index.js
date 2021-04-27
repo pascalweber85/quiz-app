@@ -21,6 +21,19 @@ knopf2.addEventListener('click', () => {
   answer.classList.toggle('hidden')
 })
 
+const bookmark = document.querySelector('.quiz-card__bookmark')
+
+bookmark.addEventListener('click', () => {
+  bookmark.classList.toggle('quiz-card__bookmark--selected')
+})
+
+const darkmode = document.querySelector('.darkmode')
+const body = document.querySelector('body')
+
+darkmode.addEventListener('click', () => {
+  body.classList.toggle('mode')
+})
+
 buttonHome.addEventListener('click', () => {
   content1.classList.remove('hidden')
   content2.classList.add('hidden')
