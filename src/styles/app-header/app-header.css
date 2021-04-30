@@ -1,4 +1,19 @@
-.app-header {
+.header1 {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 12px;
+}
+.header2 {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 12px;
+}
+.header3 {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 12px;
+}
+.header4 {
   background: var(--color-primary);
   color: var(--color-white);
   padding: 12px;

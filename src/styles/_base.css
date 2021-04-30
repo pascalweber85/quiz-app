@@ -16,6 +16,15 @@ body {
   height: 100vh;
 }
 
+.mode {
+  background: #3d3845;
+  max-width: 600px;
+}
+
+.t1 {
+  color: red;
+}
+
 h1,
 h2,
 h3 {

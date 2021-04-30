@@ -6,18 +6,32 @@
     <title>Quiz App</title>
     <link rel="icon" type="image/png" href="assets/favicon.png" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <script defer type="module" src="./index.js"></script>
   </head>
+
   <body>
-    <header class="app-header">
+    <header class="header1">
       <h1 class="app-header__heading">Quiz App</h1>
     </header>
 
-    <main class="content">
-      <section id="quiz-card1" class="quiz-card">
+    <header class="header2 hidden">
+      <h1 class="app-header__heading">Bookmark</h1>
+    </header>
+
+    <header class="header3 hidden">
+      <h1 class="app-header__heading">Create</h1>
+    </header>
+
+    <header class="header4 hidden">
+      <h1 class="app-header__heading">Profile</h1>
+    </header>
+
+    <main class="content1">
+      <section class="quiz-card">
         <h1 class="quiz-card__heading">Frage</h1>
         <p class="quiz-card__text">Wie schwer ist das Herz eines Blauwals?</p>
-        <button class="quiz-card__button">Zeige Antwort</button>
-        <p class="quiz-card__answer">600-1000 Kg</p>
+        <button class="knopf2">Zeige Antwort</button>
+        <p class="answer hidden">600-1000 Kg</p>
         <ul class="quiz-card__taglist df">
           <li>Erdkunde</li>
           <li>Technik</li>
@@ -32,7 +46,26 @@
         ></div>
       </section>
 
-      <section id="quiz-card2" class="quiz-card">
+      <section class="quiz-card">
+        <h1 class="quiz-card__heading">Frage</h1>
+        <p class="quiz-card__text">Wie viel kg wiegt ein Elephant?</p>
+        <button class="quiz-card__button">Zeige Antwort</button>
+        <p class="quiz-card__answer">2000 Kg</p>
+        <ul class="quiz-card__taglist df">
+          <li>Natur</li>
+          <li>Wissenschaft</li>
+          <li>Tiere</li>
+          <li>Wasser</li>
+        </ul>
+
+        <div
+          role="button"
+          class="quiz-card__bookmark"
+          aria-label="add bookmark"
+        ></div>
+      </section>
+
+      <section class="quiz-card">
         <h1 class="quiz-card__heading">Frage</h1>
         <p class="quiz-card__text">Wie schwer ist das Herz eines Blauwals?</p>
         <button class="quiz-card__button">Zeige Antwort</button>
@@ -51,7 +84,66 @@
         ></div>
       </section>
 
-      <section id="quiz-card3" class="quiz-card">
+      <section class="quiz-card">
+        <h1 class="quiz-card__heading">Frage</h1>
+        <p class="quiz-card__text">Wie viel kg wiegt ein Elephant?</p>
+        <button class="quiz-card__button">Zeige Antwort</button>
+        <p class="quiz-card__answer">2000 Kg</p>
+        <ul class="quiz-card__taglist df">
+          <li>Natur</li>
+          <li>Wissenschaft</li>
+          <li>Tiere</li>
+          <li>Wasser</li>
+        </ul>
+
+        <div
+          role="button"
+          class="quiz-card__bookmark"
+          aria-label="add bookmark"
+        ></div>
+      </section>
+    </main>
+
+    <main class="content2 hidden">
+      <section class="quiz-card">
+        <h1 class="quiz-card__heading">Frage</h1>
+        <p class="quiz-card__text">Wie viel kg wiegt ein Elephant?</p>
+        <button class="quiz-card__button">Zeige Antwort</button>
+        <p class="quiz-card__answer">2000 Kg</p>
+        <ul class="quiz-card__taglist df">
+          <li>Natur</li>
+          <li>Wissenschaft</li>
+          <li>Tiere</li>
+          <li>Wasser</li>
+        </ul>
+
+        <div
+          role="button"
+          class="quiz-card__bookmark"
+          aria-label="add bookmark"
+        ></div>
+      </section>
+
+      <section class="quiz-card">
+        <h1 class="quiz-card__heading">Frage</h1>
+        <p class="quiz-card__text">Wie schwer ist das Herz eines Blauwals?</p>
+        <button class="quiz-card__button">Zeige Antwort</button>
+        <p class="quiz-card__answer">600-1000 Kg</p>
+        <ul class="quiz-card__taglist df">
+          <li>Natur</li>
+          <li>Wissenschaft</li>
+          <li>Tiere</li>
+          <li>Wasser</li>
+        </ul>
+
+        <div
+          role="button"
+          class="quiz-card__bookmark"
+          aria-label="add bookmark"
+        ></div>
+      </section>
+
+      <section class="quiz-card">
         <h1 class="quiz-card__heading">Frage</h1>
         <p class="quiz-card__text">Wie schwer ist das Herz eines Blauwals?</p>
         <button class="quiz-card__button">Zeige Antwort</button>
@@ -71,11 +163,47 @@
       </section>
     </main>
 
+    <main class="content3 hidden">
+      <section class="q1">
+        <form>
+          <h2>Add Question</h2>
+          <label
+            >Add Question
+            <textarea cols="30" rows="5"> </textarea>
+          </label>
+        </form>
+      </section>
+
+      <section class="q2">
+        <form>
+          <h2>Answer Question</h2>
+          <label
+            >Answer Question
+            <textarea cols="30" rows="5"> </textarea>
+          </label>
+        </form>
+      </section>
+
+      <section class="q3">
+        <form>
+          <label for="tags">add tags</label>
+          <input id="tags" type="text" />
+        </form>
+      </section>
+
+      <button class="knopf">Submit</button>
+    </main>
+
+    <main class="content4 hidden">
+      <button class="darkmode">darkmode</button>
+      <h2 class="t2">hallo</h2>
+    </main>
+
     <footer class="nav">
-      <a href="/index.html" class="active">Home</a>
-      <a href="/bookmark.html">Bookmark</a>
-      <a href="/create.html">Create</a>
-      <a href="/profile.html">Profile</a>
+      <button class="button-home active">Home</button>
+      <button class="button-bookmarks">Bookmarks</button>
+      <button class="button-create">Create</button>
+      <button class="button-profile">Profile</button>
     </footer>
   </body>
 </html>

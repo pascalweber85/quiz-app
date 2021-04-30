@@ -19,7 +19,26 @@
   border-radius: 6px;
 }
 
-.content {
+.content1 {
+  display: grid;
+  place-items: center;
+  grid-gap: 20px;
+  overflow-y: scroll;
+}
+
+.content2 {
+  display: grid;
+  place-items: center;
+  grid-gap: 20px;
+  overflow-y: scroll;
+}
+.content3 {
+  display: grid;
+  place-items: center;
+  grid-gap: 20px;
+  overflow-y: scroll;
+}
+.content4 {
   display: grid;
   place-items: center;
   grid-gap: 20px;
