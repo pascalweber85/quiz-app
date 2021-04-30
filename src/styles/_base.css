@@ -21,6 +21,10 @@ body {
   max-width: 600px;
 }
 
+.t1 {
+  color: red;
+}
+
 h1,
 h2,
 h3 {
