@@ -1,19 +1,10 @@
 import setupNavigation from './setupNavigation'
 
+import setupCards from './setupCards'
+
 setupNavigation()
 
-const knopf2 = document.querySelector('.knopf2')
-const answer = document.querySelector('.answer')
-
-knopf2.addEventListener('click', () => {
-  answer.classList.toggle('hidden')
-})
-
-const bookmark = document.querySelector('.quiz-card__bookmark')
-
-bookmark.addEventListener('click', () => {
-  bookmark.classList.toggle('quiz-card__bookmark--selected')
-})
+setupCards()
 
 const darkmode = document.querySelector('.darkmode')
 const body = document.querySelector('body')
